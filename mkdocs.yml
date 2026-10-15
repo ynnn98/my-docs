@@ -1,0 +1,18 @@
+site_name: My Docs
+site_description: 基于 MkDocs 的个人文档站
+site_author: ynnn98
+
+theme:
+  name: mkdocs
+  language: zh
+
+nav:
+  - 主页: index.md
+  - 使用指南: guide.md
+  - API 参考: api.md
+  - 关于: about.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - fenced_code
